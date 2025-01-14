@@ -1,0 +1,26 @@
+
+research_task:
+  description: >
+    Conduct comprehensive research to uncover the best tips and advices for mastering {topic} on the highest difficulty.
+    Focus on optimal strategies for combat in {topic}. You **must** use both tools to gather information:
+    1. Search information from websites using the web search tool.
+    2. Analyze YouTube video transcriptions for additional insights.
+  expected_output: >
+    Summarize in a list the data you have gathered from **both tools**. Expected output is the list of key advices.
+
+reporting_task:
+  description: >
+    Analyze the research findings and create a clear, actionable guide to mastering {topic}. Organize the tips and strategies
+    from the research task into sections named:
+    1. Best combat tactics.
+    2. Best attacks.
+    3. Best powers and spells.
+    4. Best combat abilities.
+    If there is no advice suitable for a section, leave the section empty.
+  expected_output: >
+    Report should be in a form of a bulleted list in each of the required sections. 
+    Each point must be explained shortly in max 2 sentences.
+    Formatted as markdown without '```
+    Generate the list of points solely based on the research findings you got, without relying on its
+        own knowledge or speculation. Each point must be strictly grounded in credible sources, verified search results,
+        or proven game mechanics, ensuring accuracy and reliability at all times
